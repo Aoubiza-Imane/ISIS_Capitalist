@@ -264,7 +264,7 @@
             <idcible>0</idcible>
             <ratio>2</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
     </allunlocks>
     <upgrades>
@@ -295,7 +295,7 @@
             <idcible>0</idcible>
             <ratio>2</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
     </angelupgrades>
     <managers>
@@ -306,7 +306,7 @@
             <idcible>1</idcible>
             <ratio>2</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Jim Halpert</name>
@@ -315,7 +315,7 @@
             <idcible>2</idcible>
             <ratio>4</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Dwight Schrute</name>
@@ -324,7 +324,7 @@
             <idcible>3</idcible>
             <ratio>6</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Stanley Hudson</name>
@@ -333,7 +333,7 @@
             <idcible>4</idcible>
             <ratio>8</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Kelly Kapoor</name>
@@ -342,7 +342,7 @@
             <idcible>5</idcible>
             <ratio>10</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Pam Beesly</name>
@@ -351,7 +351,7 @@
             <idcible>6</idcible>
             <ratio>12</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
     </managers>
 </world>
