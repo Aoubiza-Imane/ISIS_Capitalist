@@ -29,6 +29,14 @@ public class Webservices {
     public Response getWorld() throws JAXBException {
         return Response.ok(services.getWorld("")).build();
     }
+
+    @GET
+    @Path("user")
+    @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    public Response getScoreandWorld() throws JAXBException, FileNotFoundException {
+        return Response.ok(services.getScoreandWorld("")).build();
+    }
+
     @PUT
     @Path("product")
     @Produces ({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})

@@ -289,7 +289,7 @@ public class Services {
         catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
+        return true;
     }
 
 }
