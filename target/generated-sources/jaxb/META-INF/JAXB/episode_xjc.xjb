@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings version="2.1" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.2 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2022.03.11 à 11:06:30 AM CET 
+
+  -->
+  <jaxb:bindings scd="x-schema::">
+    <jaxb:schemaBindings map="false">
+      <jaxb:package name="generated"/>
+    </jaxb:schemaBindings>
+    <jaxb:bindings scd="world">
+      <jaxb:class ref="generated.World"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~productsType">
+      <jaxb:class ref="generated.ProductsType"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~palliersType">
+      <jaxb:class ref="generated.PalliersType"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~productType">
+      <jaxb:class ref="generated.ProductType"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~pallierType">
+      <jaxb:class ref="generated.PallierType"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~typeratioType">
+      <jaxb:typesafeEnumClass ref="generated.TyperatioType"/>
+    </jaxb:bindings>
+  </jaxb:bindings>
+</jaxb:bindings>
+
