@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <world>
     <name>The Office</name>
-    <logo>clock.png</logo>
+    <logo>icones/logo.jpeg</logo>
     <money>100</money>
     <score>50</score>
     <totalangels>0</totalangels>
@@ -12,59 +12,59 @@
         <product>
             <id>1</id>
             <name>pen</name>
-            <logo>pen.png</logo>
+            <logo>icones/pen.png</logo>
             <cout>2</cout>
             <croissance>7</croissance>
             <revenu>3</revenu>
             <vitesse>2000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
-            <managerUnlocked>true</managerUnlocked>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>pencil</name>
-                    <logo>pencil.png</logo>
+                    <logo>icones/pencil.png</logo>
                     <seuil>5</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
                     <typeratio>gain</typeratio>
-                    <unlocked>true</unlocked>
+                    <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>pen</name>
-                    <logo>pen.png</logo>
+                    <logo>icones/pen.png</logo>
                     <seuil>10</seuil>
                     <idcible>1</idcible>
                     <ratio>4</ratio>
                     <typeratio>vitesse</typeratio>
-                    <unlocked>true</unlocked>
+                    <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>feather pen</name>
-                    <logo>featherpen.png</logo>
+                    <logo>icones/featherpen.jpg</logo>
                     <seuil>15</seuil>
                     <idcible>1</idcible>
                     <ratio>6</ratio>
                     <typeratio>vitesse</typeratio>
-                    <unlocked>true</unlocked>
+                    <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
         <product>
             <id>2</id>
             <name>mug</name>
-            <logo>mug.png</logo>
+            <logo>icones/mug.jpeg</logo>
             <cout>4</cout>
             <croissance>10</croissance>
             <revenu>6</revenu>
             <vitesse>2000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
-            <managerUnlocked>true</managerUnlocked>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>tea cup</name>
-                    <logo>teacup.png</logo>
+                    <logo>icones/teacup.png</logo>
                     <seuil>5</seuil>
                     <idcible>2</idcible>
                     <ratio>2</ratio>
@@ -73,7 +73,7 @@
                 </pallier>
                 <pallier>
                     <name>coffee cup</name>
-                    <logo>coffecup.png</logo>
+                    <logo>icones/coffeecup.jpg</logo>
                     <seuil>10</seuil>
                     <idcible>2</idcible>
                     <ratio>4</ratio>
@@ -82,7 +82,7 @@
                 </pallier>
                 <pallier>
                     <name>mug</name>
-                    <logo>mug.png</logo>
+                    <logo>icones/mug.jpeg</logo>
                     <seuil>15</seuil>
                     <idcible>2</idcible>
                     <ratio>6</ratio>
@@ -94,18 +94,18 @@
         <product>
             <id>3</id>
             <name>paper</name>
-            <logo>paper.png</logo>
+            <logo>icones/paper.jpeg</logo>
             <cout>6</cout>
             <croissance>10</croissance>
             <revenu>6</revenu>
             <vitesse>2000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
-            <managerUnlocked>true</managerUnlocked>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>colored paper</name>
-                    <logo>colored_paper.png</logo>
+                    <logo>icones/colored_paper.png</logo>
                     <seuil>5</seuil>
                     <idcible>3</idcible>
                     <ratio>2</ratio>
@@ -113,8 +113,8 @@
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
-                    <name>chinese paper</name>
-                    <logo>chinese_paper.png</logo>
+                    <name>Kraft paper</name>
+                    <logo>icones/paper_kraft.jpg</logo>
                     <seuil>10</seuil>
                     <idcible>3</idcible>
                     <ratio>4</ratio>
@@ -122,8 +122,8 @@
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
-                    <name>fine_art_paper</name>
-                    <logo>fine_art_paper.png</logo>
+                    <name>fine art paper</name>
+                    <logo>icones/fine_art_paper.jpg</logo>
                     <seuil>15</seuil>
                     <idcible>3</idcible>
                     <ratio>6</ratio>
@@ -135,7 +135,7 @@
         <product>
             <id>4</id>
             <name>printer</name>
-            <logo>printer.png</logo>
+            <logo>icones/printer.jpeg</logo>
             <cout>8</cout>
             <croissance>10</croissance>
             <revenu>6</revenu>
@@ -146,7 +146,7 @@
             <palliers>
                 <pallier>
                     <name>laser printer</name>
-                    <logo>laser printer.png</logo>
+                    <logo>icones/laser_printer.jpg</logo>
                     <seuil>5</seuil>
                     <idcible>5</idcible>
                     <ratio>2</ratio>
@@ -155,7 +155,7 @@
                 </pallier>
                 <pallier>
                     <name>LED printer</name>
-                    <logo>LED printer.png</logo>
+                    <logo>icones/led_printer.jpg</logo>
                     <seuil>10</seuil>
                     <idcible>5</idcible>
                     <ratio>4</ratio>
@@ -164,7 +164,7 @@
                 </pallier>
                 <pallier>
                     <name>3D printer</name>
-                    <logo>3D_printer.png</logo>
+                    <logo>icones/3D_printer.jpg</logo>
                     <seuil>15</seuil>
                     <idcible>5</idcible>
                     <ratio>6</ratio>
@@ -176,7 +176,7 @@
         <product>
             <id>5</id>
             <name>camera</name>
-            <logo>camera.png</logo>
+            <logo>icones/camera.jpeg</logo>
             <cout>10</cout>
             <croissance>10</croissance>
             <revenu>6</revenu>
@@ -187,7 +187,7 @@
             <palliers>
                 <pallier>
                     <name>compact camera</name>
-                    <logo>compact_camera.png</logo>
+                    <logo>icones/compact_camera.jpg</logo>
                     <seuil>5</seuil>
                     <idcible>5</idcible>
                     <ratio>2</ratio>
@@ -196,7 +196,7 @@
                 </pallier>
                 <pallier>
                     <name>action camera</name>
-                    <logo>action_camera.png</logo>
+                    <logo>icones/action_camera.jpg</logo>
                     <seuil>10</seuil>
                     <idcible>5</idcible>
                     <ratio>4</ratio>
@@ -205,7 +205,7 @@
                 </pallier>
                 <pallier>
                     <name>film camera</name>
-                    <logo>film camera.png</logo>
+                    <logo>icones/camera.jpeg</logo>
                     <seuil>15</seuil>
                     <idcible>5</idcible>
                     <ratio>6</ratio>
@@ -217,7 +217,7 @@
         <product>
             <id>6</id>
             <name>office</name>
-            <logo>office.png</logo>
+            <logo>icones/office.jpeg</logo>
             <cout>20</cout>
             <croissance>10</croissance>
             <revenu>6</revenu>
@@ -228,7 +228,7 @@
             <palliers>
                 <pallier>
                     <name>storage room</name>
-                    <logo>storage_room.png</logo>
+                    <logo>icones/storage_room.jpg</logo>
                     <seuil>5</seuil>
                     <idcible>6</idcible>
                     <ratio>2</ratio>
@@ -237,7 +237,7 @@
                 </pallier>
                 <pallier>
                     <name>office_room</name>
-                    <logo>office_room.png</logo>
+                    <logo>icones/office_room.png</logo>
                     <seuil>10</seuil>
                     <idcible>6</idcible>
                     <ratio>4</ratio>
@@ -246,7 +246,7 @@
                 </pallier>
                 <pallier>
                     <name>building</name>
-                    <logo>building.png</logo>
+                    <logo>icones/building.jpg</logo>
                     <seuil>15</seuil>
                     <idcible>6</idcible>
                     <ratio>6</ratio>
@@ -301,7 +301,7 @@
     <managers>
         <pallier>
             <name>Michael Scott</name>
-            <logo>michael.png</logo>
+            <logo>icones/michael.png</logo>
             <seuil>10</seuil>
             <idcible>1</idcible>
             <ratio>2</ratio>
@@ -310,7 +310,7 @@
         </pallier>
         <pallier>
             <name>Jim Halpert</name>
-            <logo>jim.png</logo>
+            <logo>icones/jim.png</logo>
             <seuil>15</seuil>
             <idcible>2</idcible>
             <ratio>4</ratio>
@@ -319,7 +319,7 @@
         </pallier>
         <pallier>
             <name>Dwight Schrute</name>
-            <logo>dwight.png</logo>
+            <logo>icones/dwight.png</logo>
             <seuil>20</seuil>
             <idcible>3</idcible>
             <ratio>6</ratio>
@@ -328,7 +328,7 @@
         </pallier>
         <pallier>
             <name>Stanley Hudson</name>
-            <logo>stanley.png</logo>
+            <logo>icones/stanley.png</logo>
             <seuil>25</seuil>
             <idcible>4</idcible>
             <ratio>8</ratio>
@@ -337,7 +337,7 @@
         </pallier>
         <pallier>
             <name>Kelly Kapoor</name>
-            <logo>kelly.png</logo>
+            <logo>icones/kelly.png</logo>
             <seuil>30</seuil>
             <idcible>5</idcible>
             <ratio>10</ratio>
@@ -346,7 +346,7 @@
         </pallier>
         <pallier>
             <name>Pam Beesly</name>
-            <logo>pam.png</logo>
+            <logo>icones/pam.png</logo>
             <seuil>35</seuil>
             <idcible>6</idcible>
             <ratio>12</ratio>
