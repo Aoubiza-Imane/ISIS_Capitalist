@@ -16,9 +16,9 @@
             <cout>2</cout>
             <croissance>7</croissance>
             <revenu>3</revenu>
-            <vitesse>2</vitesse>
-            <quantite>3</quantite>
-            <timeleft>30</timeleft>
+            <vitesse>2000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
             <managerUnlocked>true</managerUnlocked>
             <palliers>
                 <pallier>
@@ -57,9 +57,9 @@
             <cout>4</cout>
             <croissance>10</croissance>
             <revenu>6</revenu>
-            <vitesse>2</vitesse>
-            <quantite>4</quantite>
-            <timeleft>6</timeleft>
+            <vitesse>2000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
             <managerUnlocked>true</managerUnlocked>
             <palliers>
                 <pallier>
@@ -69,7 +69,7 @@
                     <idcible>2</idcible>
                     <ratio>2</ratio>
                     <typeratio>vitesse</typeratio>
-                    <unlocked>true</unlocked>
+                    <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>coffee cup</name>
@@ -78,7 +78,7 @@
                     <idcible>2</idcible>
                     <ratio>4</ratio>
                     <typeratio>vitesse</typeratio>
-                    <unlocked>true</unlocked>
+                    <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>mug</name>
@@ -87,7 +87,171 @@
                     <idcible>2</idcible>
                     <ratio>6</ratio>
                     <typeratio>vitesse</typeratio>
-                    <unlocked>true</unlocked>
+                    <unlocked>false</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>3</id>
+            <name>paper</name>
+            <logo>paper.png</logo>
+            <cout>6</cout>
+            <croissance>10</croissance>
+            <revenu>6</revenu>
+            <vitesse>2000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>true</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>colored paper</name>
+                    <logo>colored_paper.png</logo>
+                    <seuil>5</seuil>
+                    <idcible>3</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>chinese paper</name>
+                    <logo>chinese_paper.png</logo>
+                    <seuil>10</seuil>
+                    <idcible>3</idcible>
+                    <ratio>4</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>fine_art_paper</name>
+                    <logo>fine_art_paper.png</logo>
+                    <seuil>15</seuil>
+                    <idcible>3</idcible>
+                    <ratio>6</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>4</id>
+            <name>printer</name>
+            <logo>printer.png</logo>
+            <cout>8</cout>
+            <croissance>10</croissance>
+            <revenu>6</revenu>
+            <vitesse>2000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>laser printer</name>
+                    <logo>laser printer.png</logo>
+                    <seuil>5</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>LED printer</name>
+                    <logo>LED printer.png</logo>
+                    <seuil>10</seuil>
+                    <idcible>5</idcible>
+                    <ratio>4</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>3D printer</name>
+                    <logo>3D_printer.png</logo>
+                    <seuil>15</seuil>
+                    <idcible>5</idcible>
+                    <ratio>6</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>5</id>
+            <name>camera</name>
+            <logo>camera.png</logo>
+            <cout>10</cout>
+            <croissance>10</croissance>
+            <revenu>6</revenu>
+            <vitesse>2000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>compact camera</name>
+                    <logo>compact_camera.png</logo>
+                    <seuil>5</seuil>
+                    <idcible>5</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>action camera</name>
+                    <logo>action_camera.png</logo>
+                    <seuil>10</seuil>
+                    <idcible>5</idcible>
+                    <ratio>4</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>film camera</name>
+                    <logo>film camera.png</logo>
+                    <seuil>15</seuil>
+                    <idcible>5</idcible>
+                    <ratio>6</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>6</id>
+            <name>office</name>
+            <logo>office.png</logo>
+            <cout>20</cout>
+            <croissance>10</croissance>
+            <revenu>6</revenu>
+            <vitesse>2000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>storage room</name>
+                    <logo>storage_room.png</logo>
+                    <seuil>5</seuil>
+                    <idcible>6</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>office_room</name>
+                    <logo>office_room.png</logo>
+                    <seuil>10</seuil>
+                    <idcible>6</idcible>
+                    <ratio>4</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>building</name>
+                    <logo>building.png</logo>
+                    <seuil>15</seuil>
+                    <idcible>6</idcible>
+                    <ratio>6</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
