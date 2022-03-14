@@ -275,7 +275,7 @@
             <idcible>1</idcible>
             <ratio>6</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>mug</name>
@@ -284,7 +284,7 @@
             <idcible>2</idcible>
             <ratio>6</ratio>
             <typeratio>vitesse</typeratio>
-            <unlocked>true</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
     </upgrades>
     <angelupgrades>
