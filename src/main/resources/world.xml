@@ -234,7 +234,7 @@
         </pallier>
         <pallier>
             <name>mug</name>
-            <logo>mug.png</logo>
+            <logo>mug.jpeg</logo>
             <seuil>15</seuil>
             <idcible>2</idcible>
             <ratio>6</ratio>
