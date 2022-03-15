@@ -39,15 +39,6 @@
                     <typeratio>vitesse</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
-                <pallier>
-                    <name>feather pen</name>
-                    <logo>icones/featherpen.jpg</logo>
-                    <seuil>15</seuil>
-                    <idcible>1</idcible>
-                    <ratio>6</ratio>
-                    <typeratio>vitesse</typeratio>
-                    <unlocked>false</unlocked>
-                </pallier>
             </palliers>
         </product>
         <product>
@@ -77,15 +68,6 @@
                     <seuil>10</seuil>
                     <idcible>2</idcible>
                     <ratio>4</ratio>
-                    <typeratio>vitesse</typeratio>
-                    <unlocked>false</unlocked>
-                </pallier>
-                <pallier>
-                    <name>mug</name>
-                    <logo>icones/mug.jpeg</logo>
-                    <seuil>15</seuil>
-                    <idcible>2</idcible>
-                    <ratio>6</ratio>
                     <typeratio>vitesse</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -121,15 +103,6 @@
                     <typeratio>vitesse</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
-                <pallier>
-                    <name>fine art paper</name>
-                    <logo>icones/fine_art_paper.jpg</logo>
-                    <seuil>15</seuil>
-                    <idcible>3</idcible>
-                    <ratio>6</ratio>
-                    <typeratio>vitesse</typeratio>
-                    <unlocked>false</unlocked>
-                </pallier>
             </palliers>
         </product>
         <product>
@@ -162,15 +135,6 @@
                     <typeratio>vitesse</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
-                <pallier>
-                    <name>3D printer</name>
-                    <logo>icones/3D_printer.jpg</logo>
-                    <seuil>15</seuil>
-                    <idcible>5</idcible>
-                    <ratio>6</ratio>
-                    <typeratio>vitesse</typeratio>
-                    <unlocked>false</unlocked>
-                </pallier>
             </palliers>
         </product>
         <product>
@@ -200,15 +164,6 @@
                     <seuil>10</seuil>
                     <idcible>5</idcible>
                     <ratio>4</ratio>
-                    <typeratio>vitesse</typeratio>
-                    <unlocked>false</unlocked>
-                </pallier>
-                <pallier>
-                    <name>film camera</name>
-                    <logo>icones/camera.jpeg</logo>
-                    <seuil>15</seuil>
-                    <idcible>5</idcible>
-                    <ratio>6</ratio>
                     <typeratio>vitesse</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -270,7 +225,7 @@
     <upgrades>
         <pallier>
             <name>feather pen</name>
-            <logo>featherpen.png</logo>
+            <logo>icones/featherpen.jpg</logo>
             <seuil>15</seuil>
             <idcible>1</idcible>
             <ratio>6</ratio>
@@ -282,6 +237,42 @@
             <logo>mug.png</logo>
             <seuil>15</seuil>
             <idcible>2</idcible>
+            <ratio>6</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>mug</name>
+            <logo>icones/mug.jpeg</logo>
+            <seuil>15</seuil>
+            <idcible>2</idcible>
+            <ratio>6</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>fine art paper</name>
+            <logo>icones/fine_art_paper.jpg</logo>
+            <seuil>15</seuil>
+            <idcible>3</idcible>
+            <ratio>6</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>3D printer</name>
+            <logo>icones/3D_printer.jpg</logo>
+            <seuil>15</seuil>
+            <idcible>5</idcible>
+            <ratio>6</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>film camera</name>
+            <logo>icones/camera.jpeg</logo>
+            <seuil>15</seuil>
+            <idcible>5</idcible>
             <ratio>6</ratio>
             <typeratio>vitesse</typeratio>
             <unlocked>false</unlocked>
